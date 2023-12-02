@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/javidbaku/static/css/main.124d672e.css",
-    "main.js": "/javidbaku/static/js/main.ab014034.js",
+    "main.css": "/javidbaku/static/css/main.aca573fe.css",
+    "main.js": "/javidbaku/static/js/main.6311ba6a.js",
+    "static/js/686.f4544c56.chunk.js": "/javidbaku/static/js/686.f4544c56.chunk.js",
     "static/js/496.1f849389.chunk.js": "/javidbaku/static/js/496.1f849389.chunk.js",
+    "static/media/2.jpg": "/javidbaku/static/media/2.d376f3126fbd351fac6b.jpg",
     "static/media/1.jpg": "/javidbaku/static/media/1.aa15118ab5ce4ef4c3d1.jpg",
     "static/media/hero9.JPG": "/javidbaku/static/media/hero9.08f0a6c6bd7dc22fdf26.JPG",
+    "static/media/4.jpg": "/javidbaku/static/media/4.55b5c7f110221c495fe6.jpg",
     "static/media/hero11.jpg": "/javidbaku/static/media/hero11.3222d4de280e3518fd7d.jpg",
     "static/media/hero10.jpg": "/javidbaku/static/media/hero10.e2aedfda1b45bb3b7794.jpg",
     "static/media/111.JPG": "/javidbaku/static/media/111.2e9eb096b4e7b09b7268.JPG",
@@ -21,6 +24,7 @@
     "static/media/about7.jpg": "/javidbaku/static/media/about7.08857558c66b24ab0842.jpg",
     "static/media/hero3.jpg": "/javidbaku/static/media/hero3.5a1bcd102dc3e91105a3.jpg",
     "static/media/himn.pdf": "/javidbaku/static/media/himn.d731382ddd4f9e4ce7ae.pdf",
+    "static/media/5.jpg": "/javidbaku/static/media/5.eebce2516df6a2757ec1.jpg",
     "static/media/hardasan.pdf": "/javidbaku/static/media/hardasan.f695d136419a1490ce16.pdf",
     "static/media/sevgilim.pdf": "/javidbaku/static/media/sevgilim.8b63dff632cf3a969a59.pdf",
     "static/media/arzu.pdf": "/javidbaku/static/media/arzu.bd97a19fac5a359b49c6.pdf",
@@ -31,15 +35,17 @@
     "static/media/quba.pdf": "/javidbaku/static/media/quba.7753056863766de1852f.pdf",
     "static/media/hicran.pdf": "/javidbaku/static/media/hicran.d4ece88d4d06d05a9005.pdf",
     "static/media/kucelere.pdf": "/javidbaku/static/media/kucelere.af997479eb90702fd28b.pdf",
+    "static/media/3.jpg": "/javidbaku/static/media/3.051a2d8bc0e0cd507b6d.jpg",
     "static/media/hero4.jpg": "/javidbaku/static/media/hero4.093e21a4dbadf5ce9881.jpg",
     "static/media/lacin.pdf": "/javidbaku/static/media/lacin.a6e3f03ea74fdaeac843.pdf",
     "index.html": "/javidbaku/index.html",
-    "main.124d672e.css.map": "/javidbaku/static/css/main.124d672e.css.map",
-    "main.ab014034.js.map": "/javidbaku/static/js/main.ab014034.js.map",
+    "main.aca573fe.css.map": "/javidbaku/static/css/main.aca573fe.css.map",
+    "main.6311ba6a.js.map": "/javidbaku/static/js/main.6311ba6a.js.map",
+    "686.f4544c56.chunk.js.map": "/javidbaku/static/js/686.f4544c56.chunk.js.map",
     "496.1f849389.chunk.js.map": "/javidbaku/static/js/496.1f849389.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.124d672e.css",
-    "static/js/main.ab014034.js"
+    "static/css/main.aca573fe.css",
+    "static/js/main.6311ba6a.js"
   ]
 }
