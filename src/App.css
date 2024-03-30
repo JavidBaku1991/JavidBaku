@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=DM+Serif+Display:ital@0;1&family=Girassol&family=Montserrat:wght@700&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
+:root {
+  --main-black: #000000;
+  --secondary-black: #1e1e1e;
+  --tertiary-black:#3c3c3c;
+  --main-whiite:#ffffff;
+  --secondary-white:#e6e7dd;
+  --tertiary-white:#94938e;
+  --bronze:#CD7F32;
+  --bronze1:#B87333;
+  --chocolate:#7B3F00;
+
+}
+
+body{
+  overflow-x: hidden;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

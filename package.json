@@ -1,0 +1,81 @@
+{
+  "name": "javidbaku",
+  "version": "0.1.0",
+  "homepage": "/",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.18",
+    "@mui/styles": "^5.14.19",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf/renderer": "^3.1.14",
+    "bootstrap": "^5.3.2",
+    "email-js": "^2.0.2",
+    "emailjs-com": "^3.2.0",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^10.16.5",
+    "i18next": "^23.10.0",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "i18next-http-backend": "^2.5.0",
+    "install": "^0.13.0",
+    "jplayer": "^2.9.2",
+    "lucide-react": "^0.294.0",
+    "npm": "^10.2.4",
+    "pdfjs-dist": "^4.0.269",
+    "react-bootstrap": "^2.9.1",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-i18next": "^14.0.5",
+    "react-icons": "^4.12.0",
+    "react-intersection-observer": "^9.5.3",
+    "react-lazyload": "^3.2.0",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-pdf": "^7.5.1",
+    "react-pdf-viewer": "^0.1.0",
+    "react-player": "^2.13.0",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "^5.0.1",
+    "react-transition-group": "^4.4.5",
+    "react-youtube": "^10.1.0",
+    "reactstrap": "^9.2.1",
+    "sass": "^1.69.5",
+    "typescript": "^5.2.2",
+    "web-vitals": "^3.5.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "cypress": "^13.6.6",
+    "gh-pages": "^6.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.89.0"
+  }
+}
