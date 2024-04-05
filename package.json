@@ -1,7 +1,7 @@
 {
   "name": "javidbaku",
   "version": "0.1.0",
-  "homepage": "javidbaku",
+  "homepage": "https://javidbaku1991.github.io/javidbaku",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -46,13 +46,9 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-<<<<<<< HEAD
-    "build": "react-scripts build ",
-=======
-    "build": "react-scripts build && move build javidbaku",
->>>>>>> 0a3e8101f3cee936680fed14400beb52e0029132
+    "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
