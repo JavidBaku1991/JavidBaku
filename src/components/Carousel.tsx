@@ -8,11 +8,11 @@ import men5 from '../images/5.jpg';
 
 
 const images = [
-  { url: men1, alt: "Car One" },
-  { url: men2, alt: "Car Two" },
-  { url: men3, alt: "Car Three" },
-  { url: men4, alt: "Car Four" },
-  { url: men5, alt: "Car Five" },
+  { url: men1, alt: "Javid Baku" },
+  { url: men2, alt: "Javid Baku" },
+  { url: men3, alt: "Javid Baku" },
+  { url: men4, alt: "Javid Baku" },
+  { url: men5, alt: "Javid Baku" },
 ]
 
  const Carousel = () => {
