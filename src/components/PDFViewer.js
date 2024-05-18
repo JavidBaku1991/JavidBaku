@@ -13,7 +13,7 @@ const PDFViewer = ({ fileUrl }) => {
     };
 
     return (
-        <div style={{ overflowY: 'scroll', height: '80vh',width:'600px' }}>
+        <div style={{ overflowY: 'scroll', height: '80vh',width:'620px' }}>
             <Document
                 file={fileUrl}
                 onLoadSuccess={onDocumentLoadSuccess}
