@@ -101,7 +101,8 @@ i18n
                contactslabel:"Number",
                message:"Message",
                send:'SEND',
-
+              openPdf:"Open",
+              downloadPdf:"Download"
           }
         },
         az:{
@@ -193,6 +194,8 @@ i18n
               contactslabel:"Nömrə",
               message:"Mesaj",
               send:'GÖNDƏR',
+              openPdf:"AÇ",
+              downloadPdf:"YÜKLƏ"
           }
         },
     },

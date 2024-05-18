@@ -1,10 +1,12 @@
 import React ,{useState,useEffect} from 'react'
 
+import { useTranslation } from 'react-i18next';
 
 
  const MyPdfViewer = ({pdf,title,openPdf}) => {
 
   const [isMobile, setIsMobile] = useState(false);
+  const { t } = useTranslation();
 
 
 const downloadFile=(url)=>{
@@ -43,13 +45,13 @@ useEffect(() => {
     <div className='pdf-viewer'>
        <p className='note-title'>{title}</p>
        <div style={{display:'flex',flexDirection:'row', gap:'10px'}}>
-        { !isMobile &&  <button  className='note-button' onClick={openPdf}>AC</button>
+        { !isMobile &&  <button  className='note-button' onClick={openPdf}> {t("openPdf")}</button>
 
 
         }
 
         <button onClick={()=>{downloadFile(pdf)}} className='note-button'>
-            YÜKLƏ
+        {t("downloadPdf")}
         </button>
        </div>
       
