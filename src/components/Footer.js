@@ -27,7 +27,7 @@ import { useTranslation } from 'react-i18next';
               hidden: { opacity: 0, x: -50 },
               visible: { opacity: 1, x: 0 },
             }} >
-        <img  src={Logo} className='footer-logo' alt='image'/>
+        <img  src={Logo} className='footer-logo' alt='image1'/>
         <Box sx={{display:'flex',flexDirection:'column'}} className='footer-info-container'>      
               <h3 className='footer-info'><PhoneAndroidIcon  className='footer-icon' />+(994)70-920-97-47 </h3>
               <h3 className='footer-info'>  <MarkEmailReadIcon className='footer-icon'/>  cavid-de-baku91@mail.ru </h3>

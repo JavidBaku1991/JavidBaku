@@ -8,13 +8,11 @@ import FAQS from './pages/FAQS.js';
 import Notes from './pages/Notes.js';
 import Lessons from './pages/Lessons.js';
 import Contacts from './pages/Contacts.js';
-import { useTranslation } from 'react-i18next';
 
 
 
 function App() {
 
-const {t}=useTranslation();
 
   return (<div>
        <HashRouter>

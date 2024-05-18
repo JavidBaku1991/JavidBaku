@@ -75,7 +75,11 @@
 
 margin: 0 auto;   
  padding: 4px;
+ width: 80%;
     background-color: #b87333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -100,6 +104,18 @@ margin: 0 auto;
 .note-button:hover{
     background-color: #c79c73;
     transform: scale(.95);
+}
+
+
+
+
+.pdf-modal-close{
+    scale: 1.2;
+    transition: scale 0.3s;
+}
+
+.pdf-modal-close:hover{
+    scale: 1.2;
 }
 
 @media screen and (max-width: 830px){

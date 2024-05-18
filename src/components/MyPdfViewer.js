@@ -1,11 +1,10 @@
-import { Box } from '@mui/material'
-import React ,{useState}from 'react'
+import React ,{useState,useEffect} from 'react'
 
 
 
- const MyPdfViewer = ({pdf,title}) => {
+ const MyPdfViewer = ({pdf,title,openPdf}) => {
 
-const [showPdf,setShowPdf]=useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
 
 const downloadFile=(url)=>{
@@ -26,13 +25,34 @@ fetch(url).then(response=>response.blob()).then(blob=>{
 
 }
 
+const handleResize = () => {
+  setIsMobile(window.innerWidth <= 1060);
+};
+
+
+useEffect(() => {
+  window.addEventListener('resize', handleResize);
+  handleResize();
+
+  return () => {
+      window.removeEventListener('resize', handleResize);
+  };
+}, []);
 
   return (
     <div className='pdf-viewer'>
        <p className='note-title'>{title}</p>
+       <div style={{display:'flex',flexDirection:'row', gap:'10px'}}>
+        { !isMobile &&  <button  className='note-button' onClick={openPdf}>AC</button>
+
+
+        }
+
         <button onClick={()=>{downloadFile(pdf)}} className='note-button'>
             YÜKLƏ
         </button>
+       </div>
+      
     </div>
   )
 }
