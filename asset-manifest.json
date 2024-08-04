@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.baf47986.css",
-    "main.js": "/static/js/main.e2e5964e.js",
+    "main.js": "/static/js/main.f81f89c3.js",
     "static/media/2.jpg": "/static/media/2.ce1199f52d1997df1269.jpg",
-    "static/media/3.jpg": "/static/media/3.f9372345be7c7ee5d297.jpg",
     "static/media/1.jpg": "/static/media/1.aa15118ab5ce4ef4c3d1.jpg",
     "static/media/4.jpg": "/static/media/4.0aa308d77af449069edb.jpg",
     "static/media/hero11.jpg": "/static/media/hero11.3222d4de280e3518fd7d.jpg",
@@ -14,7 +13,9 @@
     "static/media/hero5.jpg": "/static/media/hero5.2daf4546aeb3d7350746.jpg",
     "static/media/aogm.png": "/static/media/aogm.1a5ded0b346388a34d56.png",
     "static/media/about6.jpg": "/static/media/about6.909d15a88ffe50f8030d.jpg",
+    "static/media/hero13.jpg": "/static/media/hero13.0401c2ec894f42ceac45.jpg",
     "static/media/sensiz.pdf": "/static/media/sensiz.a14be3b77f2adad66c1f.pdf",
+    "static/media/3.jpg": "/static/media/3.066596223dd4f30e1bd4.jpg",
     "static/media/sevgilicanan.pdf": "/static/media/sevgilicanan.13d0c84e91b9833036a6.pdf",
     "static/media/hero1.jpg": "/static/media/hero1.9d5c5880de37599226d7.jpg",
     "static/media/sari.pdf": "/static/media/sari.6a095ebecfe7cd071786.pdf",
@@ -38,10 +39,10 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.baf47986.css.map": "/static/css/main.baf47986.css.map",
-    "main.e2e5964e.js.map": "/static/js/main.e2e5964e.js.map"
+    "main.f81f89c3.js.map": "/static/js/main.f81f89c3.js.map"
   },
   "entrypoints": [
     "static/css/main.baf47986.css",
-    "static/js/main.e2e5964e.js"
+    "static/js/main.f81f89c3.js"
   ]
 }
